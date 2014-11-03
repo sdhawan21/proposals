@@ -1,4 +1,6 @@
-# This is another super-cool script
+# New script by Adam Ginsburg
 
-while True:
-    echo "All fork and no spoon makes soup difficult to eat."
+import numpy as np
+
+def sqrt(x):
+    return x**0.5
