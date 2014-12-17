@@ -1,0 +1,14 @@
+This file contains a summary of the targets to be proposed for in P95
+
+1. SN2013aa: late time IR photometry with HAWK-I. Bright ~19.21 mag in J (if it follows a similar evolution to 01el)
+Details of detector integration times (DITS) in snia_ir directory
+2. SN2014ao: observe similar to 2013aa.
+
+
+
+NGC1316: galaxy in Fornax A. Hosted 4 SNae 80N, 81B (check), 06mr, 06dd. Spectroscopy and Imaging available for 3, no spectra but imaging for 80N
+
+distances done by Stritzinger+ '11
+
+
+

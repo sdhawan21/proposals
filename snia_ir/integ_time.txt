@@ -1,0 +1,18 @@
+#integration time for nearby SN proposed to be observed. for 13aa, the template magitudes for the calculations are taken from 01el (identical z, presume SNIa are
+'standard' at these late epochs.)
+
+SN		mag	time (NDIT*DIT for HAWK-I)	SNR	Filt
+SN2013aa	23.56	600				25	U		#for optical bands, faintest epoch chosen
+--		22.03	600				200	B
+--		22	600				213	V
+--		22.18	600				147	r
+--		20.99	600				367	i	
+--		19.21   600 (60*10)			156	J
+--		18.87	600				204	H
+SN2014ao	24.56	600				19	U	
+--		22.50	600				132	B
+--		24.05	600				30	V
+--		24.7	600				16	r
+--		23.14	600				61	i	
+--		21.21   600 (60*10)			23	J
+--		20.87	600				32	H

@@ -1,0 +1,5 @@
+import numpy as np
+
+
+vals=np.loadtxt('01el_mags.txt')
+
