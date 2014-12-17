@@ -1,0 +1,23 @@
+Exposure Times for 14J
+(based on the LT IO:o and IO:i ETC's)
+Taking magnitudes at faintest for 01el and brightening by 3 mag
+Exp Time (s)
+B  	V  	R  	I  	J  	H
+48	38	87	19	12	17	
+106	124	336	60	12	17
+
+(First row: Dark time; Second row: Dark time +2.0 mag)
+(Seeing 1.0")
+For the IR, these are pure, on source exposure times. After talking to stephan, a good estimate of total IR exposure time + overheads is greater by a factor of ~ 3. For the optical it would be ~ 30 %
+
+Total exposure time for dark nights: 336 s
+
+For dark + 2.0 mag: 900 s
+
+Total number of epochs to be sampled:
+~8-10
+ 
+
+
+
+

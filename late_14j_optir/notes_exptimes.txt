@@ -1,0 +1,15 @@
+Calar Alto 2.2 m telescope
+
+Optical:
+Using CAFOS ETC with a conservative seeing estimate of 1" (as a proxy for the exposure required from HCT)
+
+For 18.81 mag at late times (3 mag brighter than 01el), the exposure time of 20 mins gives an SNR of 175
+
+
+
+
+
+
+
+
+ 
