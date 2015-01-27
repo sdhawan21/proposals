@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.14)  18 DEC 2014 18:25
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.14)  27 JAN 2015 17:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -539,7 +539,7 @@ Here is how much of TeX's memory you used:
  4759 multiletter control sequences out of 15000+600000
  10210 words of font info for 35 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 37i,9n,23p,852b,234s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,9n,23p,1050b,234s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2013basi
 c/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2013
 basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2
@@ -556,7 +556,7 @@ m/cmssbx10.pfb></usr/local/texlive/2013basic/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmsy10.pfb></usr/local/texlive/2013basic/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmsy8.pfb></usr/local/texlive/2013basic/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmti10.pfb>
-Output written on hct_obsp_2014.pdf (6 pages, 200903 bytes).
+Output written on hct_obsp_2014.pdf (6 pages, 201318 bytes).
 PDF statistics:
  82 PDF objects out of 1000 (max. 8388607)
  58 compressed objects within 1 object stream
