@@ -32,7 +32,7 @@ Proposer & Affiliation & e-mail & Will be present for observations?\\
 \hline
  B. Leibundgut & ESO &bleibund@eso.org & \\ \hline
  S. Dhawan& ESO & sdhawan@eso.org& \\ \hline
- & & & \\ \hline
+S. Taubenberger & ESO & tauben@mpa-garching.mpg.de & \\ \hline
  & & & \\ \hline
  & & & \\ \hline
  & & & \\ \hline
@@ -82,10 +82,10 @@ attach any preprint/reprint based on these HCT observations\\
 2. If your proposal is long-term / on-going, briefly state the status of the
 proposal, mentioning the progress with respect to the science goals.}}\\
 {\bf \small {NOTE: Incomplete proposals are likely to be given low priority
-or rejected}}
+or rejected}
+}
 \\
-\\
-\\
+N/A
 \\
 \\
 \\
@@ -135,12 +135,12 @@ or rejected}}
 %IN THE FOLLOWING LINES, CHANGE "NO" to "YES" TO INDICATE THE DESIRED 
 %SCHEDULING REQUEST 
 
-\NO~Dark night is essential \hfil \YES~Grey night is all right~~~~~\\
+\YES~Dark night is essential \hfil \NO~Grey night is all right~~~~~\\
 \NO~Bright night is all right \hfil \NO~Time-critical observations\\
 \NO~Target of Opportunity \hfil \NO~Other (specify) ~~~~~~~~~~~~~\\
 
 \begin{tabular}[t]{p{9cm}p{9cm}}
-{No. of nights requested: 3 }\\
+{No. of nights requested: 3 }(total exposure time and calculations in section \textbf{10})\\
 {Preferred dates: None} & {Impossible dates: August 1 to August 31}\\
  & \\
  & \\
@@ -150,14 +150,12 @@ or rejected}}
 
 {\bf 7. Justification for scheduling request: }\\
 SN2014J is lowest in visibility during the month of August. 
-It is, however, bright at these late epochs, hence, can be observed without needing a dark night.
+We request dark nights since they significantly reduce exposure times in the optical. With a dark + 1 mag sky brightness, the exposure times are great by a factor of 5. 
+We would like to observe the SN in $1.5^{"}$ or better seeing. 
 \\
 \\
 \\
 \\
-\\
-\\
-
 {\bf 8. Instrument:} {\sl check all that apply}\\
 %
 % IN THE FOLLOWING LINES, CHANGE "NO" to "YES" TO INDICATE THE REQUIRED
@@ -178,28 +176,41 @@ It is, however, bright at these late epochs, hence, can be observed without need
 We request observations of the target at intervals of 30 days, starting from the first epoch in May. For each observation date, we would like to observe the SN in the u to K filters with the HFOSC(UBVRI) and TIRSPEC (JHK) instruments  \\
 the total number of observations requested is 3 epochs. the SN is visible through the year, but is at its lowest in august .\\
 
-Using the exposure time calculator for the TIRSPEC we would like to have 5 dithers for 4 frames of 15 seconds each for the J, H, and K bands, which is a total of 300s for each filter. 
+To calculate the exposures in the optical, we normalise the maximum light observations of SN2001el (a well-observed normal Ia) to the peak of SN2014J in the $BVRI$ filters. As a result, we use the predicted fading of SN2014J to get the magnitudes at these late phases. 
+We summarise the exposure times in  table \ref{tab:exp}
+Note: we use the liverpool telescope's exposure time calculator to get these estimates 
+\begin{tabular}{llll|}
+\\
+\hline
+Filter & Magnitude & Exposure (s; dark, $1.5^{"}$)  & Exposure (s; dark + 1 mag, $1.5^{"}$) \\
+\hline
+B	& 21.31   & 438 & 1108\\
+V	& 20.31 & 153 & 372\\
+R	&  20.61	&  292  & 657\\
+I	&   17.99  & 14 &   22\\
+\hline
+\label{tab:exp}
+\end{tabular}
+\newpage
+Hence, the total time for each epoch in the optical will be 40 mins. Including a conservative estimate of overheads, we request 1 hour of observations in the optical at each epoch. 
 
-For the optical measurements, we would like 
+For  calculations in the infrared we use the TIRSPEC exposure time calculator. For our desired signal to noise, we require 5 dithers of 6 frames with 15s exposures. Since, we require off source images for sky subtraction, we would like to split this observation into two sequences of 5 dithers with 3 frames. 
+Hence, we would obtain a total exposure time of 450s 
+We multiply this by a factor of 3 to get the overheads for the on-source and off-source sequences. Hence, the total time in each filter for the observation will be close to 25 minutes. Thus, we require 1.5 hours for each epoch.
+
+The total time for each epoch, optical + IR is 2.5 hours.
+ Hence, the total time requested for the semester is 3 X 2.5 = 7.5 hours. 
 \\
 \\
 \\
-\\
-\\
-\\
-\\
-\\
+
 
 {\bf 11. Plans for data reduction and analysis: }
-We plan to use IRAF routines for image processing to reduce the data and have routines for bolometric light curve calculation and line fitting. 
+We plan to use the available reduction software for TIRSPEC and HFOSC to reduce the images .
+We have downloaded the SED templates for M82 for accurate host galaxy subtraction. 
+We currently have routines ready for the bolometric light curve calculation which have also been testing on data for other projects. 
  \\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
+
 
 %\newpage
 {\it HCT Proposal}\hskip 5cm {\it Page 4} \hfill {\it Observing Details (contd)}\\[1mm]
@@ -208,7 +219,7 @@ We plan to use IRAF routines for image processing to reduce the data and have ro
 % IN THE FOLLOWING LINES, CHANGE "NO" to "YES" TO INDICATE THE REQUIREMENT(S).
 
 {\bf HFOSC}\\
-{\bfs Broad Band Filters:} \YES~U \YES~B \YES~V \YES~R \YES~I \NO~I$_c$ 
+{\bfs Broad Band Filters:} \NO~U \YES~B \YES~V \YES~R \YES~I \NO~I$_c$ 
 \NO~$z$\\ [1mm]
 {\bfs Narrow Band Filters:} \NO~486.1(10) \NO~500.7(10) \NO~656.3(10) 
 \NO~672.4(10) \NO~656.3(50) \\[1mm]
@@ -243,7 +254,7 @@ We plan to use IRAF routines for image processing to reduce the data and have ro
 \hline
 Name & RA (hh mm ss)& Dec (dd mm ss) & Epoch & $V$ mag & size$^*$ \\
 \hline
-SN2014J & 09 55 42.12 & +69 40 25.9  &  & 18.81 &  N/A  \\\hline
+SN2014J & 09 55 42.12 & +69 40 25.9  &  & 20.31 &  N/A  \\\hline
  & & & & & \\\hline
  \multicolumn{6}{l}{*for extended objects}\\
 \end{tabular}
