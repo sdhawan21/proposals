@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<proposal schemaVersion="2015.1.1">
+    <meta band3optionChosen="false">
+        <attachment>/Users/lapguest/proposals/ft_gemini_irspec/proposal/GemPhase1.pdf</attachment>
+    </meta>
+    <semester half="A" year="2015"/>
+    <title>Late Time Near Infrared Spectroscopy of SN2014J </title>
+    <abstract>Type Ia supernovae are thermonuclear explosions of white dwarfs (WDs) in a binary system. They are proven excellent distance indicators in cosmology. However, there are several unanswered physical questions </abstract>
+    <scheduling></scheduling>
+    <keywords/>
+    <investigators>
+        <pi id="investigator-0">
+            <firstName>Suhail </firstName>
+            <lastName>Dhawan</lastName>
+            <status>PhD</status>
+            <email>sdhawan@eso.org</email>
+            <phone></phone>
+            <address>
+                <institution>European Southern Observatory </institution>
+                <address>Karl Schwarzschild Strasse, 2, Garching bei Munchen
+Germany
+85748</address>
+                <country>Germany</country>
+            </address>
+        </pi>
+    </investigators>
+    <targets/>
+    <conditions/>
+    <blueprints/>
+    <observations/>
+    <proposalClass>
+        <fastTurnaround reviewer="investigator-0" tooOption="None">
+            <submission>
+                <request>
+                    <time units="hr">0.0</time>
+                    <minTime units="hr">0.0</minTime>
+                </request>
+            </submission>
+        </fastTurnaround>
+    </proposalClass>
+</proposal>
