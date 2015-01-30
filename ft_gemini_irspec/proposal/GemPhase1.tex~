@@ -151,12 +151,13 @@ L48
 % calibrations in addition to the baseline calibrations.
 
 \expdesign    % Do not delete this command.
+
+We propose to obtain 3 NIR spectra from the months of March to May. This will allow us to have  a time series of spectra between $\sim$ + 400 and $\sim$ +500 days. A time series at these epochs will allow us to clearly discern whether there is any evolution in the line velocities at late epochs. 
+Having 3 spectra will allow us to look at the line velocity evolution in the SN. 
+
 SN2014J is the nearest SNIa in close to 4 decades. Due to its brightness it offers a great opportunity to obtain high S/N late time observations which are not possible for other, more distant SNIa.
 
-In order to fulfill our science goals, we propose to obtain 3 NIR spectra from the months of March to May. This will allow us to have  a time series of spectra between $\sim$ + 400 and $\sim$ +500 days. 
-
-
-In order to study the late time properties of SN2014J, we have also proposed for photometric observations in the optical and NIR on the Himalayan Chandra Telescope (HCT). This will allow us to get a late time (pseudo)-bolometric light curve which can elucidate the configuration of the magnetic field in the ejecta. 
+In order to study the late time properties of SN2014J, we have also proposed for photometric observations in the optical and NIR on the Himalayan Chandra Telescope (HCT). This will allow us to get a late time (pseudo)-bolometric light curve which can elucidate the configuration of the magnetic field in the ejecta. We will also we able to observe and time sample the late NIR light curve to understand the flattening in the JHK bands. 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % TECHNICAL CASE
@@ -170,17 +171,12 @@ In order to study the late time properties of SN2014J, we have also proposed for
 % please state the time request for each site.
 
 \technicaldescription    % Do not delete this command.
-We would like 10 exposures of 120 seconds  each per night. A total on source exposure time of 20 mins  gives us an S/N of $\sim$ 30 in the line at $\sim 1.54 \mu$m (see ITC pdf attached ). 
-We would require the same number of exposures for the same duration off source. Hence the total time on and off source is 40 mins. 
-
-For each such set of  exposures, the acquisition time is 12 mins. The readout time for each exposure is 9 seconds. Hence for 10 X 2 exposures the total readout time is 180s. 
+We would like 15 exposures of 120 seconds  each per night. A total on source exposure time of 30 mins gives us an S/N of $\sim$ 50 (see ITC pdf attached ). For each such set of  exposures, the acquisition time is 12 mins. 
 Hence, in total we request for 1 hour for each night (using a conservative estimate for overheads), and a total of 3 hours for the period of March to May. 
 
 We would like to use the cross-dispersed mode in order to obtain a complete spectrum from 0.8 to 2.5 $\mu$m. Recently published observations of SN2005df (Diamond et al. [2014]) using GNIRS have also used cross-dispersion mode to get a complete spectrum from 0.8-2.4 $\mu$m.
 
-The observations can be carried out during any phase of the moon. Details of the ITC are attached. 
-
-Based on the fast turnaround schedule we would prefer observations in April on the 14th and in May on either 25th or 26th and on any of the nights scheduled in March. However, any other nights as well would be suitable. 
+The observations can be carried out during any phase of the moon. We would like to request clear nights for the observations. Details of the ITC are attached. 
 \bigskip
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
