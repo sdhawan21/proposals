@@ -1,4 +1,5 @@
 \documentclass[11pt]{article}
+\usepackage{graphicx}
 \input def.tex
 \begin{document}
 %EDIT THIS FILE AND FILL IN THE RELEVANT DETAILS.
@@ -16,7 +17,7 @@
 %
 \NO~Short term \hfil \NO~Long term \hfil Number of cycles/nights:~~~~\hfil\\
 \NO~Ongoing proposal \hfil Previous proposal code(s):~~~~~~~~~~~~~\hfil~~~~\\
-\NO~Thesis topic \hfil Expected year of thesis submission:   \hfil~~~\\
+\YES~Thesis topic \hfil Expected year of thesis submission: 2016  \hfil~~~\\
 {\bf \small {If proposal is intended to support a Ph.\ D.\ project, please
 include, in addition to the Scientific Justification, a brief outline of the 
 Ph.\ D.\ project and the relevance of the proposal to the Ph.\ D.\ project}}\\
@@ -29,9 +30,9 @@ Ph.\ D.\ project and the relevance of the proposal to the Ph.\ D.\ project}}\\
 \hline
 Proposer & Affiliation & e-mail & Will be present for observations?\\
 \hline
- & & & \\ \hline
- & & & \\ \hline
- & & & \\ \hline
+ B. Leibundgut & ESO &bleibund@eso.org & \\ \hline
+ S. Dhawan& ESO & sdhawan@eso.org& \\ \hline
+S. Taubenberger & ESO & tauben@mpa-garching.mpg.de & \\ \hline
  & & & \\ \hline
  & & & \\ \hline
  & & & \\ \hline
@@ -40,6 +41,10 @@ Proposer & Affiliation & e-mail & Will be present for observations?\\
 %NAME AND ADDRESS OF PROPOSER FOR CONTACT
 %
 {\bf 3. Contact Name \& Address: }\\
+European Southern Observatory,
+Karl Schwardschild Strasse, 2
+Garching bei München, 85748, 
+Germany
 \\
 \\
 \\
@@ -48,7 +53,10 @@ Fax:\\
 
 %GIVE A BRIEF ABSTRACT OF THE PROPOSAL
 %
-{\bf 4. Abstract: }\\ 
+\textbf{ 4. Abstract: }
+Type Ia supernovae (SNe Ia) are thermonuclear explosions of white dwarfs (WDs) in binary systems. Detailed observations of large samples have displayed a heterogeneity in the properties of SNe Ia near maximum light. The late phases in the life of an SN offer a different opportunity to study the physics of the ejecta and are potent in distinguishing between different explosion models. 
+In this proposal, we aim to observe SN2014J, a nearby SN in M82, at very late phases in the optical and NIR. Since, at such late phases, the $\gamma$-ray escape fraction is much higher than at maximum, hence, most of the energy is deposited by the positrons. Thus, we can discern the nature of the magnetic field using the positron escape fraction. Probing the occurrence of an Infrared Catastrophe at these epochs allows us to understand the ejecta temperature and density distribution. Since most observations of SNeIa in the NIR only extend to $\sim$ +700, observations at even later phases offer an interesting prospect to learn about the physics of SNeIa.
+\\ 
 %BEGIN ABSTRACT
 \\
 \\
@@ -63,7 +71,7 @@ Fax:\\
 \\
 %END ABSTRACT
 
-\newpage 
+%\newpage 
 {\it HCT Proposal}\hskip 5cm {\it Page 2} \hfill {\it Cover page (contd)}\\[1mm]
 \hrule
 
@@ -74,7 +82,10 @@ attach any preprint/reprint based on these HCT observations\\
 2. If your proposal is long-term / on-going, briefly state the status of the
 proposal, mentioning the progress with respect to the science goals.}}\\
 {\bf \small {NOTE: Incomplete proposals are likely to be given low priority
-or rejected}}
+or rejected}
+}
+\\
+N/A
 \\
 \\
 \\
@@ -96,14 +107,7 @@ or rejected}}
 \\
 \\
 \\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
+
 
 \hrule
 {\bf For official purpose only}
@@ -131,13 +135,13 @@ or rejected}}
 %IN THE FOLLOWING LINES, CHANGE "NO" to "YES" TO INDICATE THE DESIRED 
 %SCHEDULING REQUEST 
 
-\NO~Dark night is essential \hfil \NO~Grey night is all right~~~~~\\
+\YES~Dark night is essential \hfil \NO~Grey night is all right~~~~~\\
 \NO~Bright night is all right \hfil \NO~Time-critical observations\\
 \NO~Target of Opportunity \hfil \NO~Other (specify) ~~~~~~~~~~~~~\\
 
 \begin{tabular}[t]{p{9cm}p{9cm}}
-{No. of nights requested: }\\
-{Preferred dates: } & {Impossible dates: }\\
+{No. of nights requested: 3 }(total exposure time and calculations in section \textbf{10})\\
+{Preferred dates: None} & {Impossible dates: August 1 to August 31}\\
  & \\
  & \\
  & \\
@@ -145,13 +149,13 @@ or rejected}}
 \end{tabular} \\ 
 
 {\bf 7. Justification for scheduling request: }\\
+SN2014J is lowest in visibility during the month of August. 
+We request dark nights since they significantly reduce exposure times in the optical. With a dark + 1 mag sky brightness, the exposure times are great by a factor of 5. 
+We would like to observe the SN in $1.5^{"}$ or better seeing. 
 \\
 \\
 \\
 \\
-\\
-\\
-
 {\bf 8. Instrument:} {\sl check all that apply}\\
 %
 % IN THE FOLLOWING LINES, CHANGE "NO" to "YES" TO INDICATE THE REQUIRED
@@ -169,36 +173,53 @@ or rejected}}
 \\[2mm]
 
 {\bf 10. Brief description of observations: } \\
+We request observations of the target at intervals of 30 days, starting from the first epoch in May. For each observation date, we would like to observe the SN in the u to K filters with the HFOSC(UBVRI) and TIRSPEC (JHK) instruments  \\
+the total number of observations requested is 3 epochs. the SN is visible through the year, but is at its lowest in august .\\
+
+To calculate the exposures in the optical, we normalise the maximum light observations of SN2001el (a well-observed normal Ia) to the peak of SN2014J in the $BVRI$ filters. As a result, we use the predicted fading of SN2014J to get the magnitudes at these late phases. 
+We summarise the exposure times in  table \ref{tab:exp}
+Note: we use the liverpool telescope's exposure time calculator to get these estimates 
+\begin{tabular}{llll|}
 \\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
- 
-{\bf 11. Plans for data reduction and analysis: } \\
-\\
-\\
-\\
-\\
+\hline
+Filter & Magnitude & Exposure (s; dark, $1.5^{"}$)  & Exposure (s; dark + 1 mag, $1.5^{"}$) \\
+\hline
+B	& 21.31   & 438 & 1108\\
+V	& 20.31 & 153 & 372\\
+R	&  20.61	&  292  & 657\\
+I	&   17.99  & 14 &   22\\
+\hline
+\label{tab:exp}
+\end{tabular}
+\newpage
+Hence, the total time for each epoch in the optical will be 40 mins. Including a conservative estimate of overheads, we request 1 hour of observations in the optical at each epoch. 
+
+For  calculations in the infrared we use the TIRSPEC exposure time calculator. For our desired signal to noise, we require 5 dithers of 6 frames with 15s exposures. Since, we require off source images for sky subtraction, we would like to split this observation into two sequences of 5 dithers with 3 frames. 
+Hence, we would obtain a total exposure time of 450s 
+We multiply this by a factor of 3 to get the overheads for the on-source and off-source sequences. Hence, the total time in each filter for the observation will be close to 25 minutes. Thus, we require 1.5 hours for each epoch.
+
+The total time for each epoch, optical + IR is 2.5 hours.
+ Hence, the total time requested for the semester is 3 X 2.5 = 7.5 hours. 
 \\
 \\
 \\
 
-\newpage
+
+{\bf 11. Plans for data reduction and analysis: }
+We plan to use the available reduction software for TIRSPEC and HFOSC to reduce the images .
+We have downloaded the SED templates for M82 for accurate host galaxy subtraction. 
+We currently have routines ready for the bolometric light curve calculation which have also been testing on data for other projects. 
+ \\
+
+
+%\newpage
 {\it HCT Proposal}\hskip 5cm {\it Page 4} \hfill {\it Observing Details (contd)}\\[1mm]
 \hrule
 {\bf 12. Instrument Resource Requirements:}\\[1mm]
 % IN THE FOLLOWING LINES, CHANGE "NO" to "YES" TO INDICATE THE REQUIREMENT(S).
 
 {\bf HFOSC}\\
-{\bfs Broad Band Filters:} \YES~U \YES~B \YES~V \YES~R \YES~I \NO~I$_c$ 
+{\bfs Broad Band Filters:} \NO~U \YES~B \YES~V \YES~R \YES~I \NO~I$_c$ 
 \NO~$z$\\ [1mm]
 {\bfs Narrow Band Filters:} \NO~486.1(10) \NO~500.7(10) \NO~656.3(10) 
 \NO~672.4(10) \NO~656.3(50) \\[1mm]
@@ -233,38 +254,35 @@ or rejected}}
 \hline
 Name & RA (hh mm ss)& Dec (dd mm ss) & Epoch & $V$ mag & size$^*$ \\
 \hline
-SN2014J 09 55 42.12 & +69 40 25.9  &  & 18.81 &  N/A & \\\hline
+SN2014J & 09 55 42.12 & +69 40 25.9  &  & 20.31 &  N/A  \\\hline
  & & & & & \\\hline
- & & & & & \\\hline
- & & & & & \\\hline
- & & & & & \\\hline
- & & & & & \\\hline
- & & & & & \\\hline
- & & & & & \\\hline
- & & & & & \\\hline
- & & & & & \\\hline
- & & & & & \\\hline
- & & & & & \\\hline
- & & & & & \\\hline
- & & & & & \\\hline
- & & & & & \\\hline
- & & & & & \\\hline
- & & & & & \\\hline
- & & & & & \\\hline
- & & & & & \\\hline
- & & & & & \\\hline
-\multicolumn{6}{l}{*for extended objects}\\
+ \multicolumn{6}{l}{*for extended objects}\\
 \end{tabular}
 
 \newpage
 {\it HCT Proposal}\hskip 5cm {\it Page 5} \hfill {\it Scientific Justification}\\[1mm]
 \hrule
-{\bf 14. Scientific Justification:} {\sl Type Ia supernovae (SNe~Ia) are thermonuclear explosions of white dwarfs in binary system. Their use as distance indicators in cosmology has led to dedicated efforts to obtain data for large samples of SNeIa. This has revealed a heterogeneity in the photometric and spectroscopic properties of the explosions. However, most of the assimilated data for the SNe~Ia are directed towards understanding them during the early photospheric phase. The late-phases of these SNe offer other opportunities to study the physics of these explosions.
+{\bf 14. Scientific Justification:} {\sl Type Ia supernovae (SNe~Ia) are thermonuclear explosions of white dwarfs in a binary system. Their use as distance indicators in cosmology has led to dedicated efforts to obtain data for large samples of SNeIa. This has revealed a heterogeneity in the photometric and spectroscopic properties of the explosions. However, most of the assimilated data for the SNe~Ia are directed towards understanding them during the early photospheric phase. At late phases, the $\gamma$ ray escape fraction increases and most of the light curve is powered by the positrons. Hence, these late-phases of these SNe offer other opportunities to study the physics of these explosions, for eg. constraining the geometry of the magnetic field.
 
-At phases greater than $\sim$ 150 days past maximum light, the light curves are powered by the deposition of positron kinetic energy. The fraction of positron energy deposited into the ejecta is thought to depend on the magnetic field configuration, with a stronger magnetic field leading to higher fraction of positrons being trapped. Thus, the late-time (pseudo-)bolometric light curve (integrated from filters u to K) is an efficient tool in constraining the nature of the magnetic field in the SNe and, in principle can constrain the contribution these positrons make to the galactic 511 keV line.  
+At phases greater than $\sim$ 200 days past maximum light, the light curves are powered by the deposition of positron kinetic energy. The fraction of positron energy deposited into the ejecta is thought to depend on the magnetic field configuration, with a stronger magnetic field leading to higher fraction of positrons being trapped. Thus, the late-time (pseudo-)bolometric light curve (integrated from filters u to K) is an efficient tool in constraining the configuration of the magnetic field in the SNe and, in principle can constrain the contribution these positrons make to the galactic 511 keV line.  In figure \ref{fig:bol}, we can see the (pseudo-)bolometric light curve for SN2001el from Stritzinger $\&$ Sollerman 2007, compared to their toy model. Their bolometric light curve only extends out to $\sim$  +440 days.
 
-A few recent studies have shown that SNeIa show a flattening of the Near Infrared (NIR) light curve at a few hundred days past maximum light. This is attributed to a flux redistribution at late epochs from the optical to the NIR. However, there objects with such late time data have very sparse sampling and no coverage beyond $\sim$ +700 days. 
+A few recent studies have shown that SNeIa show a flattening of the Near Infrared (NIR) light curve at a few hundred days past maximum light . This is attributed to a flux redistribution at late epochs from the optical to the NIR. However, there objects with such late time data have very sparse sampling and no coverage beyond $\sim$ +700 days. 
 
-SN2014J, the nearest supernova in the past 4 decades provides a unique laboratory to study this late time behaviour. Its proximity means that it is bright, even at late epochs $\geq$ +700 days, which allows us to probe the physics of the explosion out to later epochs than current studies. A time sampling of observations every $\sim$ 30-50 days within the range of +300-+800 days would allow us to constrain the nature of this late time decline precisely } 
+SN2014J, the nearest supernova in the past 4 decades provides a unique laboratory to study this late time behaviour. Dedicated near-maximum observations have led to epochal discoveries, like the first observation of the $^{56}Co$ line in the $\gamma$ rays.  Its proximity means that it is bright, even at late epochs $\geq$ +700 days, which allows us to probe the physics of the explosion out to later epochs than current studies. A time sampling of observations every $\sim$ 30-50 days within the range of +300-+800 days would allow us to constrain the evolutionary behaviour  of this late time decline in the NIR precisely. Observations post +700 days will allow us to observe the behaviour of SNeIa in the NIR at very late epochs, to constrain when the flattening ends and what the nature of the light curve is at $>$ +700 days. 
+
+At late times, it is predicted that SNIa would show a sharp dimming in the optical and NIR with an increase in flux at longer wavelengths ($>$ )2 $\mu$ m). This is known as the the Infrared Catastrophe (IRC). Very late time optical and NIR observations  allow constraints on the occurrence of an IRC in the ejecta. The IRC is expected to occur once the ejecta temperature drops below a threshold. For SN2003hv, it has been seen that there in no drop in luminosity in the NIR which suggests that at least part of the ejecta is above the temperature threshold. Observations with regular time sampling in the phase range between +550 and  +800 days will allow strong constraints on the occurrence of an IRC in 2014J. An absence of the IRC in the given phase range can be explained by the clumping of the ejecta in particular regions, which would postpone the onset of the IRC. Since there are no observations at phases $>$ +700 days, the phase range of +700 to +800 days offers a new window into constraining the presence of an IRC. 
+
+\begin{figure}
+\includegraphics[width=\textwidth, trim=0 60 30 0]{sn01el_bol.pdf}
+\caption{(Pseudo-) bolometric light curve of SN2001el from Stritzinger $\&$ Sollerman 2007}
+\end{figure}
+
+\newpage
+{\bf 14a. PhD project Outline:}
+This proposal is intended to support part of a PhD project. The focus of the project is to understand the Near Infrared behaviour of Type Ia supernovae, with an emphasis on late time behaviour. 
+Current investigations in the project have shown correlations between the timing of the second maximum and the optical properties like $\Delta m_{15}$. We have also noted that the late time decline rate (between +40 and +90 days ) is more rapid by a factor $\sim$ 3-4 in the NIR than in the optical. 
+
+The very late time observations ($\geq$ +300 days) suggest that the NIR decline at these phases is significantly \textbf{slower} than the optical. Understanding the transition from the very rapid decline around +100 days to the slow decline at $\sim$ +300 days provides an interesting prospect for studying physical properties of the SN.
+ } 
 
 \end{document}
