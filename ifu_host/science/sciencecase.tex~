@@ -1,0 +1,9 @@
+\documentclass{article}
+\begin{document}
+\title{Science Case: IFU spectroscopy}
+\maketitle
+Type Ia supernovae are exceptional distance indicators for measurement of cosmological parameters. Their use as 'standardized' candles led to the discovery of dark energy. This was possible, by calibrating the peak lumniosity using strong correlations with the post-peak decline rate and the optical colour. The width-luminosity relation is shown to be a  result of a variance in the total $^{56}Ni$ synthesized in the SN ejecta. However, the scatter in the width-luminosity relation has evoked the need for a secondary parameter to explain SNIa light curves. On possibility for this is the metallicity of the progenitor, and as a result, the environment of the SN in the host. 
+
+This has led to several studies of SNIa host properties and their relation to the hubble residuals of the SN. Studies with the SNfactory sample have demonstrated a correlation between the host $M_{stellar}$, $sSFR$ and gas-phase metallicities (Childress et al. [2013]). 
+
+\end{document}

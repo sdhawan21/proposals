@@ -1,0 +1,5 @@
+
+The idea is dependent on getting time at the HCT  (which might become easier if we get the gemini time)
+
+Calar alto's 3.6m telescope offers the right amount of light gathering area to observe 14J in the optical, even after it is too faint for HCT (~700 days maybe)
+
