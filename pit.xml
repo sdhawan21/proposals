@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<proposal tacCategory="Extragalactic" schemaVersion="2015.1.1">
+    <meta band3optionChosen="false">
+        <attachment>/Users/lapguest/proposals/ft_gemini_irspec/proposal/GemPhase1-1-2.pdf</attachment>
+    </meta>
+    <semester half="A" year="2015"/>
+    <title>Late time Near Infrared spectroscopy of SN2014J</title>
+    <abstract>Type Ia supernovae (SNIa) are thermonuclear explosions of white dwarfs in a binary system. Their use as cosmological distance indicators has led to detailed datasets being collected. However, most of the data is collected at photospheric epochs. At late epochs (&gt; +150 days) the SN is optically thin at most wavelengths and hence, the internal structure is visible. In this proposal we aim to obtain Near Infrared spectra of SN2014J, the closest supernova in 4 decades at epochs between +400 and +500 days in order to discern the ionisation evolution of the core and understand the physical properties of the nebula. Recent observations of SN2011fe report puzzling effects: 1) the ejecta undergo a significant ionisation change between +300 and +1000 days and 2) during the same period there is a large shift of the emission lines by 4000 km/s. The proposed NIR spectra will allow us to trace this evolution of the plasma state in the ejecta.
+</abstract>
+    <scheduling></scheduling>
+    <keywords>
+        <keyword>Supernovae</keyword>
+    </keywords>
+    <investigators>
+        <pi id="investigator-0">
+            <firstName>Martin</firstName>
+            <lastName>Van Kerkwijk</lastName>
+            <status>PhD</status>
+            <email>mhvk@astro.utoronto.ca</email>
+            <phone>+1-416-946-7288</phone>
+            <address>
+                <institution>University of Toronto</institution>
+                <address>Department of Astronomy
+60 St. George Street
+Toronto
+Ontario
+M5S 1A1</address>
+                <country>Canada</country>
+            </address>
+        </pi>
+        <coi id="investigator-1">
+            <firstName>Wolfgang</firstName>
+            <lastName>Kerzendorf</lastName>
+            <status>PhD</status>
+            <email>wkerzend@eso.org</email>
+            <phone></phone>
+            <institution>European Southern Observatory</institution>
+        </coi>
+        <coi id="investigator-2">
+            <firstName>Kate</firstName>
+            <lastName>Maguire</lastName>
+            <status>PhD</status>
+            <email>maguirek@eso.org</email>
+            <phone></phone>
+            <institution>European Southern Observatory</institution>
+        </coi>
+        <coi id="investigator-3">
+            <firstName>Stefan</firstName>
+            <lastName>Taubenberger</lastName>
+            <status>PhD</status>
+            <email>staubenb@partner.eso.org</email>
+            <phone></phone>
+            <institution>European Southern Observatory</institution>
+        </coi>
+        <coi id="investigator-4">
+            <firstName>Suhail</firstName>
+            <lastName>Dhawan</lastName>
+            <status>Grad Thesis</status>
+            <email>sdhawan@eso.org</email>
+            <phone></phone>
+            <institution>European Southern Observatory </institution>
+        </coi>
+        <coi id="investigator-5">
+            <firstName>Bruno </firstName>
+            <lastName>Leibundgut</lastName>
+            <status>Grad Thesis</status>
+            <email>bleibund@eso.org</email>
+            <phone></phone>
+            <institution>European Southern Observatory</institution>
+        </coi>
+    </investigators>
+    <targets>
+        <sidereal epoch="J2000" id="target-0">
+            <name>Untitled</name>
+            <degDeg>
+                <ra>148.92549999554953</ra>
+                <dec>69.67386111100515</dec>
+            </degDeg>
+            <magnitudes/>
+        </sidereal>
+    </targets>
+    <conditions>
+        <condition id="condition-0">
+            <name>CC 70%/Cirrus, IQ 85%/Poor, SB Any/Bright, WV Any</name>
+            <cc>70%/Cirrus</cc>
+            <iq>85%/Poor</iq>
+            <sb>Any/Bright</sb>
+            <wv>Any</wv>
+        </condition>
+    </conditions>
+    <blueprints>
+        <gnirs>
+            <spectroscopy id="blueprint-0">
+                <name>GNIRS Spectroscopy  0.15&quot;/pix 32 l/mm grating SXD 0.675 arcsec &lt; 2.5um</name>
+                <visitor>false</visitor>
+                <altair>
+                    <none/>
+                </altair>
+                <pixelScale>0.15&quot;/pix</pixelScale>
+                <disperser>32 l/mm grating</disperser>
+                <crossDisperser>SXD</crossDisperser>
+                <fpu>0.675 arcsec</fpu>
+                <centralWavelength>&lt; 2.5um</centralWavelength>
+            </spectroscopy>
+        </gnirs>
+    </blueprints>
+    <observations>
+        <observation blueprint="blueprint-0" condition="condition-0" target="target-0" enabled="true" band="Band 1/2">
+            <time units="hr">3.0</time>
+            <meta ck="">
+                <guiding>
+                    <percentage>100</percentage>
+                    <evaluation>Success</evaluation>
+                </guiding>
+                <visibility>Good</visibility>
+                <gsa>50</gsa>
+            </meta>
+        </observation>
+    </observations>
+    <proposalClass>
+        <fastTurnaround reviewer="investigator-0" tooOption="None" key="d9ebd0cc-e1e2-4b26-8615-4a202fb44925">
+            <submission>
+                <request>
+                    <time units="hr">3.0</time>
+                    <minTime units="hr">3.0</minTime>
+                </request>
+                <response>
+                    <receipt>
+                        <timestamp>2015-02-01T09:55:33.000Z</timestamp>
+                        <id>FT-2015A-021</id>
+                        <contact>phase1help@gemini.edu</contact>
+                    </receipt>
+                </response>
+            </submission>
+            <partnerAffiliation>ca</partnerAffiliation>
+        </fastTurnaround>
+    </proposalClass>
+</proposal>
