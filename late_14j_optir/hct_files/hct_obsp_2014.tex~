@@ -285,4 +285,9 @@ Current investigations in the project have shown correlations between the timing
 The very late time observations ($\geq$ +300 days) suggest that the NIR decline at these phases is significantly \textbf{slower} than the optical. Understanding the transition from the very rapid decline around +100 days to the slow decline at $\sim$ +300 days provides an interesting prospect for studying physical properties of the SN.
  } 
 
+
+\begin{figure}
+\includegraphics[width=\textwidth, trim=0 60 30 0]{sn01el_allbw.pdf}
+\caption{(Pseudo-) bolometric light curve of SN2001el from Stritzinger $\&$ Sollerman 2007}
+\end{figure}
 \end{document}
