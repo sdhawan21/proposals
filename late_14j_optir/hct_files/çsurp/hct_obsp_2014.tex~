@@ -1,0 +1,270 @@
+\documentclass[11pt]{article}
+\input def.tex
+\begin{document}
+%EDIT THIS FILE AND FILL IN THE RELEVANT DETAILS.
+\input hct_title.tex
+
+%ENTER CYCLE APPLYING FOR (No. & PERIOD); ENTER DATE OF PROPOSAL SUBMISSION
+{\bf Cycle applying for:}~~~~~~~\hfil Date: \hfil\\
+%
+%ENTER TITLE OF PROPOSAL AFTER CURLY BRACKETS
+%
+\\
+{\bf 1. Title of the proposal : Late time emission of SN2014J, optical and Near Infrared observations } 
+
+%IN THE FOLLOWING, CHANGE "NO" to "YES" WHERE APPLICABLE.
+%
+\NO~Short term \hfil \NO~Long term \hfil Number of cycles/nights:~~~~\hfil\\
+\NO~Ongoing proposal \hfil Previous proposal code(s):~~~~~~~~~~~~~\hfil~~~~\\
+\NO~Thesis topic \hfil Expected year of thesis submission:   \hfil~~~\\
+{\bf \small {If proposal is intended to support a Ph.\ D.\ project, please
+include, in addition to the Scientific Justification, a brief outline of the 
+Ph.\ D.\ project and the relevance of the proposal to the Ph.\ D.\ project}}\\
+
+%
+%LIST NAMES OF PROPOSERS WITH E-MAIL ADDRESS.
+%
+{\bf 2. List of Proposers: } {\sl indicate PI(s)}\\[1mm]
+\begin{tabular}{|p{2in}|p{2in}|p{1.5in}|p{0.8in}|}
+\hline
+Proposer & Affiliation & e-mail & Will be present for observations?\\
+\hline
+ & & & \\ \hline
+ & & & \\ \hline
+ & & & \\ \hline
+ & & & \\ \hline
+ & & & \\ \hline
+ & & & \\ \hline
+\end{tabular}
+
+%NAME AND ADDRESS OF PROPOSER FOR CONTACT
+%
+{\bf 3. Contact Name \& Address: }\\
+\\
+\\
+\\
+Telephone:\\
+Fax:\\
+
+%GIVE A BRIEF ABSTRACT OF THE PROPOSAL
+%
+{\bf 4. Abstract: }\\ 
+%BEGIN ABSTRACT
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+%END ABSTRACT
+
+\newpage 
+{\it HCT Proposal}\hskip 5cm {\it Page 2} \hfill {\it Cover page (contd)}\\[1mm]
+\hrule
+
+{\bf 5. Status of ongoing / previous proposals:}\\ 
+%FIRST TIME APPLICANTS MAY ENTER `NA'
+{\sl \small {1. Please give a brief status report of any previous HCT proposals, and
+attach any preprint/reprint based on these HCT observations\\
+2. If your proposal is long-term / on-going, briefly state the status of the
+proposal, mentioning the progress with respect to the science goals.}}\\
+{\bf \small {NOTE: Incomplete proposals are likely to be given low priority
+or rejected}}
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+
+\hrule
+{\bf For official purpose only}
+
+{\it Referee's comments:}\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+{\it Science feasibility:} \hfil {\it Technical feasibility:} \hfil \\
+
+{\it Grade of the proposal:} \hfil \\
+
+{\it Dates allotted:}
+
+\newpage
+{\it HCT Proposal}\hskip 5cm {\it Page 3} \hfill {\it Observing Details}\\[1mm]
+\hrule
+{\bf 6. Scheduling request: }~~~~~\\
+%
+%IN THE FOLLOWING LINES, CHANGE "NO" to "YES" TO INDICATE THE DESIRED 
+%SCHEDULING REQUEST 
+
+\NO~Dark night is essential \hfil \NO~Grey night is all right~~~~~\\
+\NO~Bright night is all right \hfil \NO~Time-critical observations\\
+\NO~Target of Opportunity \hfil \NO~Other (specify) ~~~~~~~~~~~~~\\
+
+\begin{tabular}[t]{p{9cm}p{9cm}}
+{No. of nights requested: }\\
+{Preferred dates: } & {Impossible dates: }\\
+ & \\
+ & \\
+ & \\
+ & \\
+\end{tabular} \\ 
+
+{\bf 7. Justification for scheduling request: }\\
+\\
+\\
+\\
+\\
+\\
+\\
+
+{\bf 8. Instrument:} {\sl check all that apply}\\
+%
+% IN THE FOLLOWING LINES, CHANGE "NO" to "YES" TO INDICATE THE REQUIRED
+% INSTRUMENT(S)
+\YES~HFOSC\\
+\NO~Optical CCD Imager\\
+\YES~TIFR Near-IR Spectrometer (TIRSPEC)\\[1mm]
+
+{\bf 9. Mode of Observation:} {\sl check all that apply}\\ 
+%
+% IN THE FOLLOWING LINES, CHANGE "NO" to "YES" TO SPECIFY THE MODE(S) OF
+% OBSERVATION
+\YES~Imaging
+\NO~Spectroscopy
+\\[2mm]
+
+{\bf 10. Brief description of observations: } \\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+ 
+{\bf 11. Plans for data reduction and analysis: } \\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+
+\newpage
+{\it HCT Proposal}\hskip 5cm {\it Page 4} \hfill {\it Observing Details (contd)}\\[1mm]
+\hrule
+{\bf 12. Instrument Resource Requirements:}\\[1mm]
+% IN THE FOLLOWING LINES, CHANGE "NO" to "YES" TO INDICATE THE REQUIREMENT(S).
+
+{\bf HFOSC}\\
+{\bfs Broad Band Filters:} \YES~U \YES~B \YES~V \YES~R \YES~I \NO~I$_c$ 
+\NO~$z$\\ [1mm]
+{\bfs Narrow Band Filters:} \NO~486.1(10) \NO~500.7(10) \NO~656.3(10) 
+\NO~672.4(10) \NO~656.3(50) \\[1mm]
+{\bfs Grisms:} \NO~Gr.5 \NO~Gr.7 \NO~Gr.8 \NO~Gr.9 \NO~Gr.10 \NO~Gr.11
+\NO~Gr.12 \NO~Gr.14 \NO~Gr.15 \NO~Gr.17\\[1mm]
+{\bfs Slits:} \NO~67(s) \NO~67(l) \NO~100(m) \NO~100(l) \NO~134(s) 
+\NO~134(l) \NO~167(l) \NO~335(l) \NO~1340(l)\\[1mm]
+
+{\bf Optical CCD Imager}\\ 
+{\bfs Broad Band Filters:} \NO~U \NO~B \NO~V \NO~R \NO~I \NO~I$_c$ 
+\NO~$z$\\[1mm]
+{\bfs Narrow Band Filters:} \NO~372.7(5) \NO~486.1(5) \NO~500.7(5) 
+\NO~656.3(5) \NO~664.3(10) \NO~672.4(10) \NO~680.4(10) \NO~688.4(10) 
+\NO~696.4(10) \NO~704.4(10) \NO~712.4(10)\\[1mm]
+
+{\bf TIRSPEC}\\
+{\bfs Broad Band Filters:} \YES~J \YES~H \YES~K$_{\rm s}$ \\ [1mm]
+{\bfs Narrow Band Filters:} \NO~Methane off (1.584, 3.6\%) \NO~[Fe II] (1.645, 1.6\%) \NO~Methane on (1.654, 4.0\%)
+\NO~H2(1-0) (2.1239, 2.0\%) \NO~Br$\gamma$ (2.166, 0.98\%) \NO~K-cont (2.273, 1.73\%) \NO~CO(2-0) (2.287, 1.33\%) \\[1mm]
+{\bfs Single Order Dispersers:} \NO~Y (1.02--1.20) \NO~J (1.21--1.48) \NO~H (1.49--1.78) \NO~K (2.04--2.35)\\[1mm]
+{\bfs Cross Dispersers:} \NO~YJ (1.02--1.49) \NO~HK (1.50--2.45)\\[1mm]
+{\bfs Slits:} \NO~1"(s) \NO~1"(l), \NO~1.5"(s) \NO~1.5"(l) \NO~2"(s)
+\NO~2"(l) \NO~3"(s) \NO~3"(l) \NO~8"(s) \NO~8"(l)\\[1mm]
+
+% LIST THE OBJECTS PROPOSED TO BE OBSERVED BELOW. PLEASE NOTE THAT THE PROPOSAL
+% MAY BE REJECTED IF NO LIST IS PROVIDED.
+%
+
+{\bf 13. List of objects: (essential)}\\
+
+\begin{tabular}{|p{1in}|p{1.5in}|p{1.5in}|p{0.5in}|p{0.5in}|p{0.5in}|}
+\hline
+Name & RA (hh mm ss)& Dec (dd mm ss) & Epoch & $V$ mag & size$^*$ \\
+\hline
+SN2014J 09 55 42.12 & +69 40 25.9  &  & 18.81 &  N/A & \\\hline
+ & & & & & \\\hline
+ & & & & & \\\hline
+ & & & & & \\\hline
+ & & & & & \\\hline
+ & & & & & \\\hline
+ & & & & & \\\hline
+ & & & & & \\\hline
+ & & & & & \\\hline
+ & & & & & \\\hline
+ & & & & & \\\hline
+ & & & & & \\\hline
+ & & & & & \\\hline
+ & & & & & \\\hline
+ & & & & & \\\hline
+ & & & & & \\\hline
+ & & & & & \\\hline
+ & & & & & \\\hline
+ & & & & & \\\hline
+ & & & & & \\\hline
+\multicolumn{6}{l}{*for extended objects}\\
+\end{tabular}
+
+\newpage
+{\it HCT Proposal}\hskip 5cm {\it Page 5} \hfill {\it Scientific Justification}\\[1mm]
+\hrule
+{\bf 14. Scientific Justification:} {\sl Type Ia supernovae (SNe~Ia) are thermonuclear explosions of white dwarfs in binary system. Their use as distance indicators in cosmology has led to dedicated efforts to obtain data for large samples of SNeIa. This has revealed a heterogeneity in the photometric and spectroscopic properties of the explosions. However, most of the assimilated data for the SNe~Ia are directed towards understanding them during the early photospheric phase. The late-phases of these SNe offer other opportunities to study the physics of these explosions.
+
+At phases greater than $\sim$ 150 days past maximum light, the light curves are powered by the deposition of positron kinetic energy. The fraction of positron energy deposited into the ejecta is thought to depend on the magnetic field configuration, with a stronger magnetic field leading to higher fraction of positrons being trapped. Thus, the late-time (pseudo-)bolometric light curve (integrated from filters u to K) is an efficient tool in constraining the nature of the magnetic field in the SNe and, in principle can constrain the contribution these positrons make to the galactic 511 keV line.  
+
+A few recent studies have shown that SNeIa show a flattening of the Near Infrared (NIR) light curve at a few hundred days past maximum light. This is attributed to a flux redistribution at late epochs from the optical to the NIR. However, there objects with such late time data have very sparse sampling and no coverage beyond $\sim$ +700 days. 
+
+SN2014J, the nearest supernova in the past 4 decades provides a unique laboratory to study this late time behaviour. Its proximity means that it is bright, even at late epochs $\geq$ +700 days, which allows us to probe the physics of the explosion out to later epochs than current studies. A time sampling of observations every $\sim$ 30-50 days within the range of +300-+800 days would allow us to constrain the nature of this late time decline precisely } 
+
+\end{document}
