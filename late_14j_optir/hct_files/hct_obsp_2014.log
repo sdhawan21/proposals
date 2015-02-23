@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.14)  19 FEB 2015 15:57
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.14)  20 FEB 2015 15:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -448,10 +448,10 @@ Package pdftex.def Info: sn11fe_bolom.pdf used on input line 339.
 (pdftex.def)             Requested size: 483.69684pt x 382.71158pt.
  [8 <./sn01el_bol.pdf>] [9 <./sn11fe_bolom.pdf>] (./hct_obsp_2014.aux) ) 
 Here is how much of TeX's memory you used:
- 1528 strings out of 494536
- 22212 string characters out of 6167446
+ 1529 strings out of 494536
+ 22220 string characters out of 6167446
  83228 words of memory out of 5000000
- 4777 multiletter control sequences out of 15000+600000
+ 4778 multiletter control sequences out of 15000+600000
  10815 words of font info for 37 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  37i,9n,23p,1510b,230s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -474,7 +474,7 @@ st/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2013basic/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013basi
 c/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2013b
 asic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on hct_obsp_2014.pdf (9 pages, 392911 bytes).
+Output written on hct_obsp_2014.pdf (9 pages, 392999 bytes).
 PDF statistics:
  134 PDF objects out of 1000 (max. 8388607)
  96 compressed objects within 1 object stream
